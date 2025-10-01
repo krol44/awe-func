@@ -5,6 +5,8 @@ import (
 )
 
 func TestPrettyPrint(t *testing.T) {
+	t.Parallel()
+
 	tt := []struct {
 		St string
 	}{{St: "1"}, {St: "2"}, {St: "3"}, {St: "4"}}

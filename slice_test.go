@@ -5,6 +5,8 @@ import (
 )
 
 func TestSliceChunk(t *testing.T) {
+	t.Parallel()
+
 	type TyTemp struct {
 		St string
 	}
@@ -22,6 +24,8 @@ func TestSliceChunk(t *testing.T) {
 }
 
 func TestSliceReverse(t *testing.T) {
+	t.Parallel()
+
 	tt := []int{1, 2}
 	sr := SliceReverse(tt)
 	if sr[0] != 2 {

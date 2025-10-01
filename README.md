@@ -1,6 +1,9 @@
 ### Awesome function for golang
 
 #### other.go
+* RequestPostJSON
+
+#### other.go
 * PrettyPrint - return pretty interface for log or debug
 
 #### rand.go

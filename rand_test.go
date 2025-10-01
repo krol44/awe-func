@@ -6,6 +6,8 @@ import (
 )
 
 func TestRandInt(t *testing.T) {
+	t.Parallel()
+
 	i := RandInt(1, 10)
 	if fmt.Sprintf("%T", i) != "int" || i <= 0 {
 		t.Fail()
@@ -13,6 +15,8 @@ func TestRandInt(t *testing.T) {
 }
 
 func TestUniqueID(t *testing.T) {
+	t.Parallel()
+
 	s := UniqueID("test")
 	if len(s) != 20 {
 		t.Fail()
