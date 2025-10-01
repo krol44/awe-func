@@ -1,5 +1,9 @@
 ### Awesome function for golang
 
+[![Coverage Status](https://coveralls.io/repos/github/krol44/awe-func/badge.svg?branch=main)](https://coveralls.io/github/krol44/awe-func?branch=main)
+
+### Go 1.25 and newer:
+
 #### other.go
 * RequestPostJSON
 
